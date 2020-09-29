@@ -78,7 +78,7 @@ svg:not(:root) { overflow: hidden; }
 
 figure { margin: 0; }
 
-form { margin: 0; }
+form { margin: 20px 0px 0px 0px; }
 fieldset { border: 0; margin: 0; padding: 0; }
 label { cursor: pointer; }
 legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
