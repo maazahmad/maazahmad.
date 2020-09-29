@@ -103,14 +103,7 @@ td { vertical-align: top; }
 /* 			           02. PRIMARY STYLES                     */
 /* ========================================================== */
 
-@font-face {
-    font-family: 'bark';
-    src: url('../font/bark-webfont.woff2') format('woff2'),
-         url('../font/bark-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 img:not(.vegas-background),object,video,embed { max-width: 100%; }
 img { height: auto; vertical-align: middle;}
