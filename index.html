@@ -180,30 +180,6 @@
     </script>
     <!-- end jquery.sticky script-->
   
-    <!-- begin scrollTo script-->
-    <script src="lib/js/jquery.scrollTo-min.js"></script>
-    <script type="text/javascript">
-		(function($){
-			$(document).ready(function() {	
-			/* This code is executed after the DOM has been completely loaded */
-				
-				$("#nav li a, a.scrool").click(function(e){
-		
-					var full_url = this.href;
-					var parts = full_url.split("#");
-					var trgt = parts[1];
-					var target_offset = $("#"+trgt).offset();
-					var target_top = target_offset.top;
-					
-					$('html,body').animate({scrollTop:target_top -70}, 1000);
-						return false;
-					
-				});
-						
-			});
-		})(jQuery);
-    </script>
-	<!-- end menu scrollTo script-->
     
     <!-- begin menu color script-->
     <script src="lib/js/jquery.nav.js"></script>
