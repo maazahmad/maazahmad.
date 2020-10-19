@@ -608,6 +608,7 @@ a#logo {
 
 img.footer_logo{
 	margin-bottom:20px;
+	padding-left: 20px;
 }
 
 /* ----- 2. Footer Social Icons ----- */
@@ -699,7 +700,6 @@ input.register-input{
     padding:0 2%;
 	margin-right:2%;
 	margin-bottom:15px;
-	color: #ffffff;
 	border:none;
 	border: 1px solid #a40000;
 	border-left: 2px solid #a40000;
@@ -765,7 +765,7 @@ textarea.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 p.register_success_box{
-	color:#eee;
+	color: #a51e1d;;
 	font-size:16px;
 	font-style:italic;
 }
