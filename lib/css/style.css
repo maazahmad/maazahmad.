@@ -1334,6 +1334,16 @@ ul.store_icons li a i:hover {
 	-moz-border-radius: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
 }
+.testimonials_box2 {
+	background-color:#fff;
+	border-bottom:2px solid #a40000;
+    padding: 20px 25px;
+    position: relative;
+	z-index:100;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
 
 .testimonials_box .testimonials_arrow {
     background: none repeat scroll 0 0 #f5f5f5;
